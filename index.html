@@ -1,0 +1,188 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./public/css/skeleton.css">
+	<style>
+		body { 
+			background-color: #f0fff0;
+			display: flex;
+			flex-direction: column;
+		}
+
+		form {
+			margin-bottom: unset;
+		}
+
+		#header {
+			background-color: #e6e6e6;
+			display: flex;
+			align-items: center;
+			height: 3em;
+			padding: 0 1em;
+		}
+		
+		#hero {
+			background-image: url('./public/basic.jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.row > .call_to_action {
+			padding: 4em 0em;
+		}
+
+		#content {
+			flex: 5 1 33%;
+		}
+
+		.hero_content {
+			padding: 14em 0em;
+		}
+
+		.feature {
+			border: 1px solid;
+			text-align: center;
+		}
+
+		.works {
+			text-align: center;
+		}
+
+		.faq_container {
+			margin: auto 25%;
+		}
+
+		.row > h5 {
+			text-align: center;
+			margin-top: 1em;
+			margin-bottom: 0.5em;
+		}
+
+		#footer {
+			background-color: #f5f5f5;
+			flex: 1 1 3em;
+			text-align: center;
+			line-height: 3em;
+		}
+
+
+
+		.centered_text {
+			text-align: center;
+		}
+
+		.centered_text.main {
+			margin-bottom: unset;
+		}
+
+		.call_to_action {
+			margin-top: 0.5em;
+		}
+
+		.project_name {
+			flex: 1 1 auto;
+		}
+
+		.nav_btn {
+			flex: 0 1 auto;
+			margin-left: 1em;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="header" class="u-full-width">
+		<div class="project_name">Product Name</div>
+		<div class="nav_btn">Github</div>
+	</div>
+
+	<div id="hero" class="u-full-width">
+
+		<div class="hero_content">
+
+			<h4 class="centered_text main">What is it?</h4>
+			<div class="centered_text sub">And why should I care?</div>
+
+			<div class="centered_text call_to_action">
+				<form>
+					<input placeholder="Your email" id="email" type="email">
+					<input class="button-primary" value="Join" type="submit">
+				</form>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="content" class="container">
+		<div class="row">
+			<h5>Key Features</h5>
+		</div>
+
+		<div class="row">
+			<div class="three columns feature">
+				<h6>Feature #1 (active verb)</h6>
+				Audience, why use this?
+			</div>
+			<div class="three columns feature">
+				<h6>Feature #2 (active verb)</h6>
+				Audience, why use this?
+			</div>
+			<div class="three columns feature">
+				<h6>Feature #3 (active verb)</h6>
+				Audience, why use this?
+			</div>
+			<div class="three columns feature">
+				<h6>Feature #4 (active verb)</h6>
+				Audience, why use this?
+			</div>
+		</div>
+
+		<div class="row">
+			<h5>How it Works</h5>
+		</div>
+
+		<div class="row">
+			<div class="six columns">
+				 How it works?
+			</div>
+			<div class="six columns works">
+				<img src="http://via.placeholder.com/350x250" />
+			</div>
+		</div>
+
+		<div class="row">
+			<h5>F.A.Q.</h5>
+		</div>
+
+		<div class="row">
+			<div class="faq_container">
+				<div>Q: Will it blend?</div>
+				<div>A: Yes.</div>
+				<br />
+				<div>Q: But, will it really blend?</div>
+				<div>A: Maybe.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="centered_text call_to_action">
+				Join 10,000,000 people.
+				No credit card required. 
+				<form>
+	      			<input placeholder="Your email" id="email" type="email">
+	      			<input class="button-primary" value="Join" type="submit">
+				</form>
+				
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" class="u-full-width">
+		Thanks for scrolling all the way down here ;)
+	</div>
+</body>
+</html>
